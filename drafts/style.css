@@ -1,0 +1,308 @@
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  /*input[type='text'] {
+    padding: 0px 0px;
+  }*/
+  th:nth-child(1) {
+    width: 40%;
+  }
+  th:nth-child(2) {
+    width: 10%;
+  }
+  th:nth-child(3) {
+    width: 10%;
+  }
+  th:nth-child(4) {
+    width: 10%;
+  }
+  th:nth-child(5) {
+    width: 15%;
+  }
+  th:nth-child(6) {
+    width: 15%;
+  }
+
+   /*InvoiceRow//////////////////////////////////*/
+  tr.InvoiceColumn > th:nth-child(1) {
+    width: 20%;
+  }
+  tr.InvoiceColumn > th:nth-child(2) {
+    width: 40%;
+  }
+  tr.InvoiceColumn > th:nth-child(3) {
+    width: 20%;
+  }
+  tr.InvoiceColumn > th:nth-child(4) {
+    width: 20%;
+  }
+  /*/////////////////////////////////////////////*/
+
+  #input-spinner-right-button {
+    background-color: rgba(145, 144, 144, 0.075);
+    color: black;
+    border: 2px solid #555555;
+    width: 35px;
+    height: 40px;
+    padding: 0px 0px;
+  }
+  #input-spinner-right-button:active {
+    background-color: #555555;
+    color: white;
+  }
+  #input-spinner-left-button {
+    background-color: rgba(145, 144, 144, 0.075);
+    color: black;
+    border: 2px solid #555555;
+    width: 35px;
+    height: 40px;
+    padding: 0px 0px;
+  }
+  #input-spinner-left-button:active {
+    background-color: #555555;
+    color: white;
+  }
+  input.form-control {
+    padding: 0px 0px;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+    text-align: center;
+  }
+
+/* Chrome, Safari, Edge, Opera */
+  input.form-control::-webkit-outer-spin-button,
+  input.form-control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+/* Firefox */
+  input.form-control {
+    -moz-appearance: textfield;
+  }
+  
+  /*/////////////////////////////////////////////*/
+  
+  @media (max-width: 960px) {
+    .btn {
+      width: 30%;
+      height: 30px;
+      padding: 0px 0px;
+      font-size: 0.7rem;
+    }
+    th:nth-child(2) {
+      width: 11%;
+    }
+    th:nth-child(4) {
+      width: 11%;
+    }
+    th:nth-child(5) {
+      width: 15%;
+    }
+    .addRow_btn {
+      height: 20px;
+    }
+    .showMaterialsTable_btn {
+      height: 20px;
+    }
+    #input-spinner-right-button {
+      background-color: rgba(145, 144, 144, 0.075);
+      color: black;
+      border: 2px solid #555555;
+      width: 25px;
+      height: 30px;
+      padding: 0px 0px;
+    }
+    #input-spinner-right-button:active {
+      background-color: #555555;
+      color: white;
+    }
+    #input-spinner-left-button {
+      background-color: rgba(145, 144, 144, 0.075);
+      color: black;
+      border: 2px solid #555555;
+      width: 25px;
+      height: 30px;
+      padding: 0px 0px;
+    }
+    #input-spinner-left-button:active {
+      background-color: #555555;
+      color: white;
+    }
+    input.form-control {
+      height: 30px;
+      text-align: center;
+    }
+    .input-group-sm > .form-control,
+    .input-group-sm > .input-group-text {
+      padding: 0px 0px;
+      font-size: 0.875rem;
+      border-radius: 0.25rem;
+    }
+  }
+  
+  /*/////////////////////////////////////////////*/
+  
+  @media (max-width: 720px) {
+    .btn {
+      width: 30%;
+      height: 30px;
+      padding: 0px 0px;
+      font-size: 0.7rem;
+    }
+    #input-spinner-right-button {
+      background-color: rgba(145, 144, 144, 0.075);
+      color: black;
+      border: 2px solid #555555;
+      width: 20px;
+      height: 30px;
+      padding: 0px 0px;
+    }
+    #input-spinner-right-button:active {
+      background-color: #555555;
+      color: white;
+    }
+    #input-spinner-left-button {
+      background-color: rgba(145, 144, 144, 0.075);
+      color: black;
+      border: 2px solid #555555;
+      width: 20px;
+      height: 30px;
+      padding: 0px 0px;
+    }
+    #input-spinner-left-button:active {
+      background-color: #555555;
+      color: white;
+    }
+    input.form-control {
+      height: 30px;
+      text-align: center;
+    }
+    .input-group-sm > .form-control,
+    .input-group-sm > .input-group-text {
+      padding: 0rem 0rem;
+      font-size: 0.7rem;
+      border-radius: 0.25rem;
+    }
+    .form-control {
+      font-size: 0.7rem;
+    }
+    input[type='text'] {
+      height: 30px;
+      padding: 0px 0px;
+    }
+    table,
+    th {
+      font-size: 0.7rem;
+    }
+    th:nth-child(1) {
+      width: 36%;
+    }
+    th:nth-child(3) {
+      width: 9%;
+    }
+    th:nth-child(4) {
+      width: 9%;
+    }
+    th:nth-child(5) {
+      width: 23%;
+    }
+    th:nth-child(6) {
+      width: 13%;
+    }
+    .addRow_btn {
+      height: 20px;
+    }
+    .showMaterialsTable_btn {
+      height: 20px;
+    }
+  }
+  
+  /*/////////////////////////////////////////////*/
+  
+  .pointer {
+    cursor: pointer;
+  }
+  .pointer:active {
+    background-color: #df356e;
+  }
+  .move_pointer {
+    cursor: move;
+    font-weight: bold;
+  }
+  .move_pointer:active {
+    background-color: #34bbc73a;
+  }
+  .anticlockwise_arrow {
+    color: orange;
+    font-weight: bold;
+  }
+  td.td_important {
+    background-color: #35bddf1a;
+  }
+  th.td_very_important {
+    background-color: #df9b3538;
+  }
+  .addRow_btn {
+    background-color: #00aa091a;
+    border: 2px solid rgba(27, 177, 64, 0.219);
+    border-radius: 10px;
+    width: 100%;
+    padding: 0rem 0rem;
+  }
+  .addRow_btn:active {
+    background-color: #05380b48;
+  }
+  .showMaterialsTable_btn {
+    border-radius: 10px;
+    width: 100%;
+    padding: 0rem 0rem;
+  }
+  input.material_item {
+    height: 20px;
+    padding: 0px 0px;
+    width: 95%;
+    border: none;
+    background: transparent;
+  }
+  input.material_price {
+    height: 20px;
+    padding: 0px 0px;
+    width: 100%;
+    border: none;
+    background: transparent;
+  }
+  input.inrow_material_price {
+    height: 25px;
+    padding: 0px 0px;
+    width: 100%;
+    text-align: center;
+  }
+  div.modal-footer > div > div > div.col.text-start > button > a {
+    color: white;
+    text-decoration: none;
+  }
+  .add_invoice {
+    background-color: #002baa1a;
+    border: 2px solid rgba(148, 11, 105, 0.674);
+    border-radius: 10px;
+    width: 100%;
+    padding: 0rem 0rem;
+  }
+  .add_invoice:active {
+    background-color: #e3679b81;
+  }
+  .materials_btn {
+    background-color: #8eaa001a;
+    border: 2px solid rgba(11, 105, 148, 0.349);
+    border-radius: 10px;
+    width: 100%;
+    padding: 0rem 0rem;
+  }
+  .materials_btn:active {
+    background-color: #8ee36745;
+  }
